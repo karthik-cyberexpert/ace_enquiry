@@ -7,5 +7,12 @@ export default defineConfig({
   server: {
     port: 5001,
     host: true, // This exposes the app to the network
+    proxy: {
+      '/api': {
+        target: 'http://localhost:5000',
+        changeOrigin: true,
+        secure: false,
+      },
+    },
   },
 })

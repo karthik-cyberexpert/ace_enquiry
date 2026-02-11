@@ -53,7 +53,7 @@ const AdminDashboard = () => {
     if (startDate) params.append('startDate', startDate)
     if (endDate) params.append('endDate', endDate)
 
-    fetch(`http://localhost:5000/api/enquiries?${params.toString()}`)
+    fetch(`/api/enquiries?${params.toString()}`)
       .then(res => res.json())
       .then(setData)
       .catch(err => console.error('Error fetching data:', err))

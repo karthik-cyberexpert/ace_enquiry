@@ -72,7 +72,7 @@ const EnquiryForm: React.FC = () => {
     }
 
     // Real API call to Node.js backend
-    fetch('http://localhost:5000/api/enquiries', {
+    fetch('/api/enquiries', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
