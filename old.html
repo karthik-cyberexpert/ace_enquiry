@@ -1,0 +1,1057 @@
+<html lang="en"><head>
+
+  <!-- Basic Page Needs
+================================================== -->
+  <meta charset="utf-8">
+  <title>ACE-Best Engineering College</title>
+
+  <!-- Mobile Specific Metas
+================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="SVT Html5 ">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Sriveltech">
+  <meta name="generator" content="Sriveltech SriveltechHTML">
+
+  <!-- Favicon
+================================================== -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- CSS
+================================================== -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="plugins/fontawesome/css/all.min.css">
+  <!-- Animation -->
+  <link rel="stylesheet" href="plugins/animate-css/animate.css">
+  <!-- slick Carousel -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <!-- Colorbox -->
+  <link rel="stylesheet" href="plugins/colorbox/colorbox.css">
+  <!-- Template styles-->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+  <script>
+$(document).ready(function() {
+    $(".prices").hide();
+    
+    $("input[name$='subscription-period']").click(function() {
+        var test = $(this).val();
+        $(".prices").hide();
+        $(".prices[data-period='" + test + "']").show();
+    });
+});
+</script>
+  <style>
+  .ts-service-box
+  {
+  height:100px;
+  }
+  .aa{
+  font-size:10px;
+  padding:10px;
+  margin:5px;
+  
+  color:brown;
+  background-color: #ffb600;
+  }
+  .aa:hover{
+  font-size:10px;
+  padding:10px;
+
+   color:#ffb600;
+  background-color: brown;
+  
+  }
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+.ticker-wrap {
+  
+  width: 100%;
+  overflow: hidden;
+  height: 2rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding-left: 100%;
+}
+
+.ticker {
+  display: inline-block;
+  height: 2rem;
+  line-height: 2rem;
+  white-space: nowrap;
+  padding-right: 100%;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-name: ticker;
+  animation-name: ticker;
+  -webkit-animation-duration: 30s;
+  animation-duration: 30s;
+}
+.ticker_item {
+  display: inline-block;
+  padding: 0 2rem;
+  font-size: 1rem;
+  color:yellow;
+}
+
+.vwrap, .vitem {
+  height: 250px;
+  line-height: 70px;
+}
+
+/* (B) FIXED WRAPPER */
+.vwrap {
+  overflow: hidden; /* HIDE SCROLL BAR */
+
+}
+
+/* (C) TICKER ITEMS */
+
+/* (D) ANIMATION - MOVE ITEMS FROM TOP TO BOTTOM */
+/* CHANGE KEYFRAMES IF YOU ADD/REMOVE ITEMS */
+.vmove { position: relative; }
+@keyframes tickerv {
+  0% { bottom: 0; } /* FIRST ITEM */
+  100% { bottom: 350px; } /* SECOND ITEM */
+  
+}
+.vmove {
+  animation-name: tickerv;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(1);
+}
+.vmove:hover { animation-play-state: paused; }
+
+</style>
+  <style>
+          .icon-float {
+     position: fixed;
+    /* left: 0px;
+     */
+     top: 35%;
+     z-index: 999;
+     right: 0px;
+}
+ .icon-float ul {
+     padding: 0px;
+}
+ .icon-float ul li {
+     list-style-type: none;
+}
+ .icon-float ul li a {
+     display: block;
+     -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+     -o-transition: all 0.5s ease;
+     transition: all 0.5s ease;
+     padding: 0px;
+}
+ .icon-float ul li a i {
+     padding: 8px;
+     width: 40px;
+     height: 32px;
+     text-align: center;
+     color: #fff;
+}
+ .icon-float ul li a:hover {
+     transform: rotateY(-180deg);
+}
+ .icon-float ul li a:hover i {
+     transform: rotateY(180deg);
+}
+ .fb1 {
+     background: #3b5998;
+}
+ .gp1 {
+     background: #dd4b39;
+}
+ .tw1 {
+     background: #1da1f2;
+}
+ .li1 {
+     background: #0077b5;
+}
+ .yt1 {
+     background: #cd201f;
+}
+ .wa1 {
+     background: #34af23;
+}
+ .sh {
+     background: #fff;
+     padding: 10px 0px;
+     font-size: 11px;
+     text-align: center;
+     color: #333;
+     border-top-left-radius: 5px;
+}
+ .sh1 {
+     background: #333;
+     border-bottom-left-radius: 5px;
+}
+    </style>
+	
+
+
+<style type="text/css" id="mytempCss">._8mqQwQ { display: none; } ._1TWLMK.icF5zO { opacity: 0.01; }</style><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/63/14d/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/63/14d/util.js"></script></head>
+<body style="" data-new-gr-c-s-check-loaded="14.1272.0" data-gr-ext-installed="">
+	
+ 
+  <div class="body-inner">
+
+
+    <div id="top-bar" class="top-bar noprint">
+        <div class="container-fluid">
+<div style="border-width: 3px; position: absolute; border-style: solid; top: -25000px;">
+      <h2>Top Online Casino Destinations in Bangladesh for 2024</h2>
+      <p>Find the best online casinos in Bangladesh for 2024 and elevate your gaming experience today.</p>
+    
+      <h3>MCW: Premier Choice for Gamers</h3>
+      <p><a href="https://ims.ocei.gov.bd/news/mcw/">MCW</a> brings a high-quality gaming experience with secure and exciting options for all players.</p>
+    
+      <h3>Melbet Login: Instant Access</h3>
+      <p><a href="https://ims.ocei.gov.bd/news/melbet-login/">Melbet Login</a> offers easy access to a thrilling variety of games designed to keep you engaged.</p>
+    
+      <h3>MCW Casino: Gaming Excellence</h3>
+      <p><a href="https://ims.ocei.gov.bd/news/mcw-casino/">MCW Casino</a> provides a trusted platform with a wide selection of games and generous rewards.</p>
+    
+      <h3>Marvelbet App: Convenient Gaming</h3>
+      <p><a href="https://ims.ocei.gov.bd/news/marvelbet-app/">Marvelbet App</a> makes it easy to enjoy your favorite games anywhere, offering mobile-friendly access and excitement.</p>
+    
+      <h3>BJ Baji: A Secure Gaming Destination</h3>
+      <p><a href="https://ims.ocei.gov.bd/news/bj-baji/">BJ Baji</a> is known for its reliable gaming experience, where security and enjoyment meet.</p>
+    
+      <h3>MCW Login: Quick Access to Fun</h3>
+      <p><a href="https://ims.ocei.gov.bd/news/mcw-login/">MCW Login</a> provides secure, fast access to an exciting range of gaming options for all.</p>
+    
+      <h3>Baji999 Live: Live Gaming Action</h3>
+      <p><a href="https://ims.ocei.gov.bd/news/baji999-live/">Baji999 Live</a> delivers the thrill of live-action games with top rewards and seamless gameplay.</p>
+    
+      <h3>Crickex Login: Effortless Entry</h3>
+      <p><a href="https://ims.ocei.gov.bd/news/crickex-login/">Crickex Login</a> gives players instant access to their favorite games with secure, reliable entry.</p>
+    
+      <h3>Crickex: Trusted by Gamers</h3>
+      <p><a href="https://ims.ocei.gov.bd/news/crickex/">Crickex</a> is the ideal platform for a secure, enjoyable gaming experience with rewarding options.</p>
+    
+      <h3>Baji 999 Live: Real-Time Entertainment</h3>
+      <p><a href="https://training-adp.plancomm.gov.bd/login/baji-999-live/">Baji 999 Live</a> offers live games with thrilling action and exceptional player rewards.</p>
+    
+      <h3>Melbet Login: Easy Entry for All</h3>
+      <p><a href="https://training-adp.plancomm.gov.bd/login/melbet-login/">Melbet Login</a> simplifies access to a wide variety of games with exciting rewards.</p>
+    
+      <h3>Jeetwin লগইন: Fast and Secure</h3>
+      <p><a href="https://training-adp.plancomm.gov.bd/login/jeetwin-লগইন/">Jeetwin লগইন</a> brings you closer to thrilling games with secure, fast access.</p>
+    
+      <h3>MCW লগইন: Easy Gaming Access</h3>
+      <p><a href="https://training-adp.plancomm.gov.bd/login/mcw-লগইন/">MCW লগইন</a> offers smooth entry to top-tier games with a secure login experience.</p>
+    
+      <h3>Crickex Login: Gaming Access Simplified</h3>
+      <p><a href="https://training-adp.plancomm.gov.bd/login/crickex-login/">Crickex Login</a> ensures quick access to your favorite games with ease and security.</p>
+    
+      <h3>MCW Casino: An Unmatched Experience</h3>
+      <p><a href="https://training-adp.plancomm.gov.bd/login/mcw-casino/">MCW Casino</a> is your gateway to a diverse range of games with secure and rewarding gameplay.</p>
+    
+      <h3>MCW App: Mobile Fun Anytime</h3>
+      <p><a href="https://training-adp.plancomm.gov.bd/login/mcw-app/">MCW App</a> delivers convenient access to exciting games, wherever you are.</p>
+    
+      <h3>Melbet Login: Direct Access to Fun</h3>
+      <p><a href="https://dgems.uagro.mx/policy/melbet-login/">Melbet Login</a> allows easy access to a wide range of games and engaging rewards.</p>
+    
+      <h3>Melbet Affiliates: Game and Earn</h3>
+      <p><a href="https://dgems.uagro.mx/policy/melbet-affiliates/">Melbet Affiliates</a> offers rewarding opportunities while you enjoy your favorite games.</p>
+    
+      <h3>Baji Live Login: Real-Time Gaming</h3>
+      <p><a href="https://dgems.uagro.mx/policy/baji-live-login/">Baji Live Login</a> offers dynamic live gaming action and secure access for all players.</p>
+    
+      <h3>MCW: Unbeatable Gaming</h3>
+      <p><a href="https://dgems.uagro.mx/policy/mcw/">MCW</a> is a popular choice among players for its secure platform and exciting game selection.</p>
+    
+      <h3>Baji88: Your Go-To Casino Platform</h3>
+      <p><a href="https://dgems.uagro.mx/policy/baji88/">Baji88</a> provides a diverse selection of games with unmatched security and enjoyment.</p>
+    
+      <h3>MCW: Quality Gaming Hub</h3>
+      <p><a href="http://www.jobs.bdu.ac.bd/bd/mcw/">MCW</a> offers a wide array of games with secure transactions for a premium experience.</p>
+    
+      <h3>Baji Live: Live Excitement</h3>
+      <p><a href="http://www.jobs.bdu.ac.bd/bd/baji-live/">Baji Live</a> provides thrilling live games with high security and rewarding outcomes.</p>
+    
+      <h3>Baji999: A Secure Choice</h3>
+      <p><a href="http://www.jobs.bdu.ac.bd/bd/baji999/">Baji999</a> combines secure gameplay with an impressive variety of rewarding games.</p>
+    
+      <h3>MCW Casino: Excellence in Gaming</h3>
+      <p><a href="http://www.jobs.bdu.ac.bd/bd/mcw-casino/">MCW Casino</a> delivers quality gaming experiences with secure options and exciting rewards.</p>
+    
+      <h3>Casino MCW: The Trusted Platform</h3>
+      <p><a href="http://www.jobs.bdu.ac.bd/bd/casino-mcw/">Casino MCW</a> provides reliable gaming experiences with thrilling options and high security.</p>
+    
+      <h3>MCW App: Fun on the Go</h3>
+      <p><a href="http://www.jobs.bdu.ac.bd/bd/mcw-app/">MCW App</a> brings gaming convenience to mobile devices, letting you play anytime.</p>
+    
+      <h3>MCW: Unrivaled in Quality</h3>
+      <p><a href="http://www.bazarmonitoring.digrajshahirange.gov.bd/mcw/">MCW</a> offers a diverse range of games with an emphasis on secure, high-quality gaming.</p>
+    
+      <h3>Baji Live: Live and Rewarding</h3>
+      <p><a href="http://www.bazarmonitoring.digrajshahirange.gov.bd/baji-live/">Baji Live</a> delivers exciting live games with substantial rewards for all players.</p>
+    
+      <h3>Jeetbuzz: High-Quality Games Await</h3>
+      <p><a href="http://www.bazarmonitoring.digrajshahirange.gov.bd/jeetbuzz/">Jeetbuzz</a> provides an unforgettable gaming atmosphere with unique experiences.</p>
+    
+      <h3>MCW Casino: Trusted by Players</h3>
+      <p><a href="http://www.bazarmonitoring.digrajshahirange.gov.bd/mcw-casino/">MCW Casino</a> ensures a secure gaming experience with diverse games and big rewards.</p>
+    
+      <h3>Casino MCW: Reliable Fun</h3>
+      <p><a href="http://www.bazarmonitoring.digrajshahirange.gov.bd/casino-mcw/">Casino MCW</a> provides a selection of games with a secure and exciting environment.</p>
+    
+      <h3>MCW App: Accessible Gaming</h3>
+      <p><a href="http://www.bazarmonitoring.digrajshahirange.gov.bd/mcw-app/">MCW App</a> offers gaming on the go with secure access and endless fun.</p>
+    </div>
+    
+    <div class="row" style="padding:0px; margin:0px;">
+              <div class="col-lg-6 col-md-6">
+                <ul class="top-info text-md-left">
+                    <li><i class="fas fa-map-marker-alt"></i> <p class="info-text">Counselling Code: 2601</p>
+                    </li>
+                </ul>
+              </div>
+              <!--/ Top info end -->
+  
+              <div class="col-lg-6 col-md-6 top-social text-center text-md-right">
+                <ul class="list-unstyled">
+                    <li>
+						<a title="Career" href="green_env.php">
+                          <span class="social-icon"><i class="">Green Initiative </i></span>
+                      </a>
+						<a title="Career" href="https://adhiyamaan.ac.in/ace/career.php">
+                          <span class="social-icon"><i class="">Career</i></span>
+                      </a>
+                      <a title="ACE Library" href="library">
+                          <span class="social-icon"><i class="">Library</i></span>
+                      </a>
+						<a title="NPTEL" href="nptel.php?fname=about">
+                          <span class="social-icon"><i class="">NPTEL</i></span>
+                      </a>
+                     
+                       <a title="Campus Life" href="ace_campuslife.php?fname=sports">
+                          <span class="social-icon"><i class="">Campus Life</i></span>
+                      </a>
+				   <a title="Research &amp; Development" href="ace_randd/index.php">
+                          <span class="social-icon"><i class="">R&amp;D</i></span>
+                      </a>	
+					   <a title="Alumni" href="http://adhiyamaan.ac.in/alumni1/">
+                          <span class="social-icon"><i class="">Alumni</i></span>
+                      </a>
+                      <a title="Login" href="ace_login1.php">
+                          <span class="social-icon"><i class="">Login</i></span>
+                      </a>
+                    </li>
+                </ul>
+              </div>
+              <!--/ Top social end -->
+          </div>
+          <!--/ Content row end -->
+        </div>
+        <!--/ Container end -->
+    </div>
+    <!--/ Topbar end -->
+
+<!----------------->
+
+	 <div id="top-bar" class="top-bar noprint" style="background-color:#dcf19e;">
+        <div class="container-fluid">
+          <div class="row" style="padding:0px; margin:0px;">
+              <div class="col-lg-6 col-md-6">
+                <ul class="top-info  text-md-left">
+                    <li> <p class="info-text">Hosur, Krishnagiri - 635130</p>
+                    </li>
+                </ul>
+              </div>
+              <!--/ Top info end -->
+  
+              <div class="col-lg-6 col-md-6 top-social text-md-right">
+                <ul class="list-unstyled">
+                    <li>
+						<a title="Career" href="cfd.php">
+                          <span class="social-icon"><i class="">Center for Faculty Development </i></span>
+                      </a>
+					<!--	<a title="Career" href="career.php" >
+                          <span class="social-icon"><i class="">Career</i></span>
+                      </a>
+                      <a title="ACE Library" href="library">
+                          <span class="social-icon"><i class="">Library</i></span>
+                      </a>
+						<a title="NPTEL" href="nptel.php?fname=about">
+                          <span class="social-icon"><i class="">NPTEL</i></span>
+                      </a>
+                     
+                       <a title="Campus Life" href="ace_campuslife.php?fname=sports" >
+                          <span class="social-icon"><i class="">Campus Life</i></span>
+                      </a>
+				   <a title="Research & Development" href="ace_randd/index.php" >
+                          <span class="social-icon"><i class="">R&amp;D</i></span>
+                      </a>	
+					   <a title="Alumni" href="http://adhiyamaan.ac.in/alumni1/">
+                          <span class="social-icon"><i class="">Alumni</i></span>
+                      </a>
+                      <a title="Login" href="ace_login1.php"  >
+                          <span class="social-icon"><i class="">Login</i></span>
+                      </a>-->
+                    </li>
+                </ul>
+              </div>
+              <!--/ Top social end -->
+          </div>
+          <!--/ Content row end -->
+        </div>
+        <!--/ Container end -->
+    </div>
+    <!--/ Topbar end -->
+<!----------------->
+<!-- Header start -->
+<header id="header" class="header-two noprint">
+  <div class="site-navigation">
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+              <nav class="navbar navbar-expand-lg navbar-light p-0">
+                
+                <div class="logo">
+                    <a class="d-block" href="index.php">
+                      <img loading="lazy" class="mobile-img" src="images/logo22.png" alt="ACE">
+						        </a>
+                </div><!-- logo end -->
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+               <div id="navbar-collapse" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav ml-auto align-items-center">
+	<li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+		<li class="nav-item dropdown"><a href="aboutus.php" class="nav-link dropdown-toggle" data-toggle="dropdown">About Us <i class="fa fa-angle-down"></i></a>
+	<ul class="dropdown-menu" role="menu">
+	    <li><a href="aboutus.php">About College</a></li>
+		<li><a href="visionandmission.php">Vision &amp; Mission</a></li>
+		<li><a href="affiliation.php">Affiliation</a></li>
+		<li><a href="chairperson.php">Messages</a></li>
+    <li class="dropdown-submenu">
+                                <a href="committee.php" class="dropdown-toggle" data-toggle="dropdown">Committee</a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="committee.php">Statutory Committee</a></li>
+                                  <li><a href="nscommittee.php">Non Statutory Committee</a></li>
+                                               </ul>
+                            </li>
+		<li><a href="policy.php">Policy</a></li>
+		<li><a href="ugc-undertaking.php">UGC Undertaking</a></li>
+		<li><a href="aceorgchart.php">Organization Chart</a></li>
+		<li><a href="../ace/strategicplan.pdf">Strategic Plan</a></li>
+		<!--<li><a href="strategicplan.php">Strategic Plan</a></li>-->
+		
+	</ul>
+	</li>
+	
+	<li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Academic<i class="fa fa-angle-down"></i> </a>
+	<ul class="dropdown-menu" role="menu">
+            <!--<li><a href="courses.php">Courses</a></li>-->
+		<li class="dropdown-submenu">
+                                <a href="committee.php" class="dropdown-toggle" data-toggle="dropdown">Programmes</a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="courses.php">UG Programmes</a></li>
+                                  <li><a href="pgcourses.php">PG Programmes</a></li>
+									<li><a href="randdcourses.php">Research Programmes</a></li>
+                                               </ul>
+                            </li>
+		<li class="dropdown-submenu">
+                                <a href="enggdept.php" class="dropdown-toggle" data-toggle="dropdown">Departments</a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="enggdept.php">Engineering</a></li>
+                                  <li><a href="http://adhiyamaan.ac.in/ace/mba.php?fname=aboutus">Management Studies</a></li>
+									<li><a href="http://adhiyamaan.ac.in/ace/mca.php?fname=aboutus">Computer Applications</a></li>
+									<li><a href="shdept.php">Science and Humanities</a></li>
+                                               </ul>
+                            </li>
+		<li><a href="ace_admission.php?fname=bebtech">Admission</a></li>
+		<li><a href="academicschedule.php">Academic Schedule</a></li>
+		<!--<li><a href="#">Regulation</a></li>-->
+		 <li class="dropdown-submenu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Regulations</a>
+                                <ul class="dropdown-menu">
+								   <li><a href="R-2022-UG.pdf" target="_blank">Regulations-2022-UG</a></li>
+                                  <li><a href="R-2022-PG.pdf" target="_blank">Regulations-2022-PG</a></li>
+                                  <li><a href="r2018.pdf" target="_blank">Regulations - 2018</a></li>
+                                               </ul>
+                            </li>
+		<!--<li><a href="#">RESULTS</a></li>
+		<li><a href="#">Placement</a></li>
+		<li><a href="#">Library</a></li>-->
+	</ul>
+	</li> 
+<li class="nav-item"><a class="nav-link" href="iqac/">IQAC</a></li>
+<li class="nav-item"><a class="nav-link" href="ace_coe/">COE</a></li>
+	<!--<li class="nav-item"><a class="nav-link" href="#">Placement</a></li>-->
+	<li class="nav-item"><a class="nav-link" href="ace_placement.php?fname=aboutus">Career Development</a></li>
+	<!--
+<li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Campus Life<i class="fa fa-angle-down"></i></a>
+	<ul class="dropdown-menu" role="menu">
+		<li><a href="#">Library</a></li>
+		<li><a href="#">Internet</a></li>
+                <li><a href="#">Hostel</a></li>
+		<li><a href="#">Sports</a></li>
+		<li><a href="#">Transports</a></li>
+                <li><a href="#">Amenities</a></li>
+	</ul>
+	</li>-->
+
+	<li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contact Us <i class="fa fa-angle-down"></i></a>
+	<ul class="dropdown-menu" role="menu">
+		<li><a href="contactkeyperson.php">Key Contact</a></li>
+		<li><a href="contact.php">Postal Address</a></li>
+	<!--	<li><a href="https://www.google.com/maps/place/Adhiyamaan+College+of+Engineering/@12.7051964,77.8454855,5558m/data=!3m1!1e3!4m12!1m6!3m5!1s0x0:0x55d856c47cfec47a!2sAdhiyamaan+College+of+Engineering!8m2!3d12.7157616!4d77.8693593!3m4!1s0x0:0x55d856c47cfec47a!8m2!3d12.7157616!4d77.8693593!5m2!1e2!1e4?hl=en">Map &amp; Direction</a></li>
+-->	
+<li><a href="https://earth.google.com/web/search/Adhiyamaan+College+of+Engineering,+Kumudepalli,+Hosur,+Tamil+Nadu,+India/@12.7157616,77.8693593,846.00516241a,1027.59929056d,35y,0h,45t,0r/data=CrUBGooBEoMBCiUweDNiYWU3MGM4MzBmMTEyNWY6MHg1NWQ4NTZjNDdjZmVjNDdhGRt37014bilAIU1-MJWjd1NAKkhBZGhpeWFtYWFuIENvbGxlZ2Ugb2YgRW5naW5lZXJpbmcsIEt1bXVkZXBhbGxpLCBIb3N1ciwgVGFtaWwgTmFkdSwgSW5kaWEYAiABIiYKJAmNOOyb_Y86QBH_Y8txEAs2wBlM-Mt2xFlMQCHf3c8pF7FKwCgC">Map &amp; Direction</a></li>
+</ul>
+	</li>
+	<li class="header-get-a-quote">
+                          <a class="btn btn-primary" href="ace_enq2.php">Admission Enquiry</a>
+                      </li>
+</ul>
+                   
+                </div>
+              </nav>
+          </div>
+          <!--/ Col end -->
+        </div>
+        <!--/ Row end -->
+    </div>
+    <!--/ Container end -->
+
+  </div>
+  <!--/ Navigation end -->
+
+
+</header>
+
+<style>
+.scroll-left {
+ height: 30px;	
+ overflow: hidden;
+ font-weight:700;
+ position: relative;
+ background: black;
+ color: yellow;
+ border: none;
+}
+	
+.scroll-left p {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 30px;
+ text-align: center;
+ /* Starting position */
+ transform:translateX(100%);
+ /* Apply animation to this element */
+ animation: scroll-left 30s linear infinite;
+	
+}
+	.scroll-left p:hover {
+    animation-play-state: paused;
+	}
+/* Move it (define the animation) */
+@keyframes scroll-left {
+ 0%   {
+ transform: translateX(100%); 		
+ }
+ 100% {
+ transform: translateX(-100%); 
+ }
+	
+  
+}
+</style>
+<div class="scroll-left" scrollamount="5">
+<p></p>
+</div>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Enquiry Form</title>
+    <style>
+        
+html, body {
+    height: 100%;
+    overflow: auto; 
+    margin: 0;
+    padding: 0;
+}
+
+
+.
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('pexels-jplenio-1103970.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+
+.text-section {
+    position: relative;
+    width: 40%;
+    text-align: center;
+}
+
+
+.small-image {
+    position:static;
+    top: 10px; 
+    width: 150px;
+    display: block;
+    margin: 20px auto;
+    z-index: 10;
+}
+
+
+.form-container {
+    float: left;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    
+}
+
+
+.form-control, .form-select {
+    border-radius: 5px;
+}
+
+
+#message {
+    width: 100%;
+    height: 100px; 
+    resize: vertical; 
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.col-md-6 {
+    padding: 5px;
+}
+
+
+.form-label {
+    font-weight: bold;
+    display: block;
+}
+
+
+.btn-primary {
+    background-color: #003366;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #002244;
+}
+
+@media (max-width: 768px) {
+    .main-section {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .text-section h1 {
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col-md-6 {
+        width: 100%;
+    }
+}
+
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+<section id="main-container" class="main-container">
+  <div class="container">
+    <div class="row">
+         <div class="col-lg-3 order-0 order-lg-0">
+                
+ <div class="sidebar sidebar-left">
+
+          <div class="widget">
+            <h3 class="widget-title">Admission Enquiry</h3>
+            <ul class="arrow nav nav-tabs">
+                 <li><a href="http://210.212.246.131/ace/admission/ace_enq2a.php" title="Admission Enquiry">Enquiry Form</a></li>
+              <li><a href="https://adhiyamaan.ac.in/ace/ace_admission_team.php" title="Admission Team"> 	
+Admission Team</a></li>
+                           <li><a href="https://adhiyamaan.ac.in/ace/ace_application_download.php" title="Application Download"> 	
+Applicaiton Downlaod</a></li>
+				<li><a href="https://adhiyamaan.ac.in/ace/ace_bro.php" style="color:orange; font-weight:600;" title="Admission Brochure"> 	
+Admission Brochure</a></li>
+              </ul>	
+
+                    </div>
+         
+        </div>         </div><!-- Sidebar Col end -->
+         <div class="col-lg-9 mb-5 mb-lg-1 order-1 order-lg-1">
+    <section class="content">
+        <div class="container">
+        <h3 align="center" style="color:orange;"> Admission Enquiry Form</h3>
+        <form action="http://210.212.246.131/ace/admission/submit.php" method="post">
+            <div class="mb-3">
+                <input type="text" class="form-control" id="fullname" placeholder="Enter Your Name" name="fullname" required="">
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <input type="tel" class="form-control" id="phone" placeholder="Enter Your Phone No" name="phone" required="">
+                    <small id="phoneError" class="text-danger"></small>
+                </div>
+                <div class="col-md-6">
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" name="email" required="">
+                    <small id="emailError" class="text-danger"></small>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <select class="form-select" id="degree" name="degree" required="">
+                    <option value="" selected="">Select Course</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <select class="form-select" id="program" name="program" required="">
+                    <option value="" selected="">Select Branch</option>
+                    </select>
+                </div>
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Write your queries here..."></textarea>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="terms" required="">
+                <label class="form-check-label" for="terms">
+                I authorize Adhiyamaan College of Engineering and its representatives to call, SMS, or email me about its programs and offers.
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">SUBMIT</button>
+        </form>
+    </div></section>
+  </div>
+ </div></div></section>
+  <!--/ Container end -->
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const degreeSelect = document.getElementById("degree");
+    const programSelect = document.getElementById("program");
+
+    // Fetch all courses when the page loads
+    function fetchCourses() {
+        fetch("fetch_courses.php")
+            .then(response => response.json())
+            .then(data => {
+                degreeSelect.innerHTML = '<option value="" selected>Select Course</option>';
+                data.forEach(course => {
+                    let option = document.createElement("option");
+                    option.value = course.id;
+                    option.textContent = course.course_name;
+                    degreeSelect.appendChild(option);
+                });
+            })
+            .catch(error => console.error("Error fetching courses:", error));
+    }
+
+    // Fetch branches when a course is selected
+    degreeSelect.addEventListener("change", function () {
+        let courseId = this.value;
+        programSelect.innerHTML = '<option value="" selected>Select Branch</option>';
+
+        if (courseId) {
+            let formData = new FormData();
+            formData.append("course_id", courseId);
+
+            fetch("fetch_branches.php", {
+                method: "POST",
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                data.forEach(branch => {
+                    let option = document.createElement("option");
+                    option.value = branch.id;
+                    option.textContent = branch.branch_name;
+                    programSelect.appendChild(option);
+                });
+            })
+            .catch(error => console.error("Error fetching branches:", error));
+        }
+    });
+
+    // Load courses on page load
+    fetchCourses();
+});
+
+
+</script>
+
+</div>
+<br><footer id="footer" class="footer bg-overlay noprint">
+    <div class="footer-main">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-3 col-md-6 footer-widget footer-about">
+            <h3 class="widget-title">About Us</h3>
+            <img loading="lazy" width="200px" class="footer-logo" src="images/footer-logo1.png" alt="Constra">
+            <p>The institution is spread over a sprawling campus with calm surroundings, creating a fitting atmosphere for study.</p>
+            <div class="footer-social">
+              <ul>
+                <li><a href="https://www.facebook.com/profile.php?id=61556598141458&amp;mibextid=ZbWKwL" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://twitter.com/AceHosur" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li><a href="https://www.instagram.com/adhiyamaancollegeofengineering?igsh=NjR1dHY5NXFwNGp3" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCq5_GV8CEZFLlfOos5aEVwg" aria-label="Youtube"><i class="fa fa-youtube"></i></a></li>
+				   <li><a href="https://www.linkedin.com/feed/" aria-label="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div><!-- Footer social end -->
+          </div><!-- Col end -->
+
+       
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 footer-widget">
+            <h3 class="widget-title">Quick Links</h3>
+            <ul class="list-arrow">
+              <li><a href="http://www.adhiyamaan.ac.in/ace/aicte-mand.php">Mandatory Disclosure</a></li>
+              <li><a href="#">Placement</a></li>
+              <li><a href="http://www.adhiyamaan.ac.in/ace/newsletter.php">Newsletter</a></li>
+              <li><a href="http://www.adhiyamaan.ac.in/ace/courses.php">BE / B.Tech. / B.Arch.</a></li>
+              <li><a href="http://www.adhiyamaan.ac.in/ace/pgcourses.php">ME / MBA / MCA</a></li>
+			  <li><a href="http://www.adhiyamaan.ac.in/ace/randdcourses.php">Research Departments</a></li>
+            </ul>
+          </div><!-- Col end -->
+		  <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 footer-widget">
+            <h3 class="widget-title">Committee</h3>
+            <ul class="list-arrow">
+              <li><a href="http://www.adhiyamaan.ac.in/ace/ace_committee_governingbody.php">Governing Body</a></li>
+              <li><a href="http://www.adhiyamaan.ac.in/ace/ace_committee_academic_council.php">Academic Council</a></li>
+              <li><a href="http://www.adhiyamaan.ac.in/ace/ace_anti_ragging_committee.php">Anti Ragging</a></li>
+              <li><a href="http://www.adhiyamaan.ac.in/ace/ace_womwn_empower_committee.php">Women Empowerment</a></li>
+              <li><a href="http://www.adhiyamaan.ac.in/ace/ace_icc_committe.php">Internal Complaint Committee</a></li>
+			   <li><a href="http://www.adhiyamaan.ac.in/ace/ace_disciplinart_committee.php">Disciplinary Committee</a></li>
+            </ul>
+          </div><!-- Col end -->
+		  <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 footer-widget">
+            <h3 class="widget-title">Facility</h3>
+            <ul class="list-arrow">
+              <li><a href="http://www.adhiyamaan.ac.in/ace/library/">Digital Library</a></li>
+              <li><a href="http://www.adhiyamaan.ac.in/ace/ace_campuslife.php?fname=hostel">Hostel</a></li>
+              <li><a href="http://www.adhiyamaan.ac.in/ace/ace_campuslife.php?fname=transport">Transport</a></li>
+              <li><a href="http://www.adhiyamaan.ac.in/ace/ace_campuslife.php?fname=internet">Internet</a></li>
+              <li><a href="http://www.adhiyamaan.ac.in/ace/ace_campuslife.php?fname=amenities">Amenities</a></li>
+			  <li><a href="http://www.adhiyamaan.ac.in/ace/ace_campuslife.php?fname=sports">Sports</a></li>
+            </ul>
+          </div><!-- Col end -->
+
+           
+        </div><!-- Row end -->
+      </div><!-- Container end -->
+    </div><!-- Footer main end -->
+
+    <div class="copyright">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-12">
+            <div class="copyright-info text-center">
+              <span>Copyright © <script>
+                  document.write(new Date().getFullYear())
+                </script>2026 <a href="https://www.sriveltech.com">Adhiyamaan College of Engineering</a></span>
+            </div>
+          </div>
+
+       <!--   <div class="col-md-12">
+            <div class="copyright-info text-center">
+              <span>Developed by <a href="https://www.sriveltech.com/">AVS Webrams Sriveltech</a></span>
+            </div>
+          </div>-->
+
+          <div class="col-md-12">
+            <div class="footer-menu text-center">
+              <ul class="list-unstyled mb-0">
+                <li>|<a href="#">Terms &amp; Conditions</a> </li>
+                <li>|<a href="#">Privacy Policy</a> </li>
+                <li>|<a href="#">Disclaimer</a></li>
+                <li>|<a href="#">Refund Policy</a></li>
+               <!-- <li><a href="pricing.html">Alumni</a></li>-->
+              </ul>
+            </div>
+          </div>
+        </div><!-- Row end -->
+
+        <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top position-fixed">
+          <button class="btn btn-primary" title="Back to Top">
+            <i class="fa fa-angle-double-up"></i>
+          </button>
+        </div>
+
+      </div><!-- Container end -->
+    </div><!-- Copyright end --
+ </footer>
+<!--
+<div  id="myDIV" class="mp-0">
+  <button  onclick="myFunction()" id="myButton" value="Click To Open Instructions"><img src="chatbot.png" width="100" ></button>
+ <iframe id="xx" src="https://www.sriveltech.com/ace/chatbot/" width="450" height ="500" ></iframe>
+-->
+
+
+
+  <!-- Javascript Files
+  ================================================== -->
+
+  <!-- initialize jQuery Library -->
+  <script src="plugins/jQuery/jquery.min.js"></script>
+  <!-- Bootstrap jQuery -->
+  <script src="plugins/bootstrap/bootstrap.min.js" defer=""></script>
+  <!-- Slick Carousel -->
+  <script src="plugins/slick/slick.min.js"></script>
+  <script src="plugins/slick/slick-animation.min.js"></script>
+  <!-- Color box -->
+  <script src="plugins/colorbox/jquery.colorbox.js"></script>
+  <!-- shuffle -->
+  <script src="plugins/shuffle/shuffle.min.js" defer=""></script>
+
+
+  <!-- Google Map API Key-->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer=""></script>
+  <!-- Google Map Plugin-->
+  <script src="plugins/google-map/map.js" defer=""></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+  <!-- Template custom -->
+  <script src="js/script.js"></script>
+<script>  
+  var a;  
+  var i=0;
+
+  a = setInterval(buttonclick, 7000);  
+  function buttonclick()
+  {  const box = document.querySelector('.testimonial-slide');
+ const messageText = isInViewport(box);
+           if( messageText) 
+      {
+      if(i==0)
+      {
+          document.getElementById("slick-slide-control11").click();
+         
+      }
+      if(i==1)
+      { 
+          document.getElementById("slick-slide-control12").click();
+         
+      }
+      if(i==2)
+      {
+          document.getElementById("slick-slide-control13").click();
+          
+      }
+      if(i==3)
+      {
+         document.getElementById("slick-slide-control14").click();;
+         
+      }
+       if(i==4)
+      {
+         document.getElementById("slick-slide-control14").click();;
+         
+      }
+      if(i==5)
+      {
+         document.getElementById("slick-slide-control10").click();;
+         i=-1;
+      }
+
+}
+i=i+1;
+  }
+function isInViewport(el) {
+    const rect = el.getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+
+    );
+}
+
+
+</script>  
+
+ <!-- Body inner end -->
+
+
+ 
+  
+
+  
+
+</footer><div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button type="button" id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

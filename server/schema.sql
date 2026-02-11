@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS ace_admissions;
+USE ace_admissions;
+
+CREATE TABLE IF NOT EXISTS enquiries (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    phone VARCHAR(20) NOT NULL,
+    course VARCHAR(100) NOT NULL,
+    branch VARCHAR(100) NOT NULL,
+    queries TEXT,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);
